@@ -11,19 +11,17 @@ Chatgpt Desktop is a cross-platform desktop application that allows you to use C
 ChatGPT Desktop is a lightweight, Electron-based application that brings the power of OpenAI's ChatGPT to your desktop. It provides a seamless and responsive interface for AI-driven conversations. Key features include:
 
 1. **Anonymous Chatting**: Enjoy secure and private interactions without the need for an account.
-2. **GPT-4 Mini**: Access the advanced capabilities of GPT-4 in a mini version, optimized for efficient performance.
-3. **Secure**: All communications are encrypted, ensuring your data remains private and safe.
-4. **Open Source**: The application is open-source, allowing users to contribute and modify the code for their needs.
-5. **Cross-Platform**: Available on multiple platforms, ensuring smooth performance and a consistent experience.
+2. **Secure**: All communications are encrypted, ensuring your data remains private and safe.
+3. **Open Source**: The application is open-source, allowing users to contribute and modify the code for their needs.
+4. **Cross-Platform**: Available on multiple platforms, ensuring smooth performance and a consistent experience.
+5. **GPT-5 Mini**: Access the advanced capabilities of GPT-5 in a mini version, optimized for efficient performance.
 
 Designed for both casual chats and productivity, ChatGPT Desktop offers an easy and secure way to interact with AI on your desktop.
-
-![Image](https://github.com/evildevill/chatgpt-desktop-linux/blob/main/screenshots/image1.png)
 
 ## 📦 **Installation**
 
 ```bash
-sudo snap install chatgpt-desktop-linux --beta
+sudo snap install chatgpt-desktop-linux
 ```
 
 ### Build From Source

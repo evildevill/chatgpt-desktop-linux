@@ -1,6 +1,7 @@
 {
   "name": "chatgpt-desktop-linux",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "description": "A simple and efficient desktop client for ChatGPT.",
   "main": "src/main.js",
   "type": "module",
   "scripts": {
@@ -8,6 +9,31 @@
     "dist": "electron-builder --linux snap",
     "lint": "eslint src/**/*.js",
     "format": "prettier --write \"**/*.{js,json,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evildevill/chatgpt-desktop-linux.git"
+  },
+  "keywords": [
+    "electron",
+    "chatgpt",
+    "desktop",
+    "linux"
+  ],
+  "author": "evildevill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evildevill/chatgpt-desktop-linux/issues"
+  },
+  "homepage": "https://github.com/evildevill/chatgpt-desktop-linux#readme",
+  "dependencies": {
+    "electron-context-menu": "^4.1.1"
+  },
+  "devDependencies": {
+    "electron": "^40.2.1",
+    "electron-builder": "^26.7.0",
+    "eslint": "^9.15.0",
+    "prettier": "^3.4.2"
   },
   "build": {
     "productName": "ChatGPT",
@@ -17,25 +43,5 @@
       "icon": "assets/icon.png",
       "category": "Utility"
     }
-  },
-  "repository": "https://github.com/evildevill/chatgpt-desktop-linux.git",
-  "keywords": [
-    "Electron",
-    "ChatGPT",
-    "chatgptdesktop",
-    "Linux",
-    "desktopApplication"
-  ],
-  "author": "evildevill",
-  "license": "ISC",
-  "description": "A simple and efficient desktop client for ChatGPT for linux.",
-  "devDependencies": {
-    "electron": "^40.2.1",
-    "electron-builder": "^26.7.0",
-    "eslint": "^9.15.0",
-    "prettier": "^3.4.2"
-  },
-  "dependencies": {
-    "electron-context-menu": "^4.1.1"
   }
 }
