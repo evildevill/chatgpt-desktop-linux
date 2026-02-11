@@ -3,12 +3,12 @@
 We welcome contributions to make **ChatGPT Desktop** even better! Here's how you can contribute:
 
 1. **Report Issues**:
-   - Found a bug or have a feature request? Open an issue on our [GitHub Issues page](https://github.com/xanmoy/chatgpt-desktop-client/issues).
+   - Found a bug or have a feature request? Open an issue on our [GitHub Issues page](https://github.com/evildevill/chatgpt-desktop-linux/issues).
 
 2. **Fork the Repository**:
    - Clone the project to your local machine:
      ```bash
-     git clone https://github.com/xanmoy/chatgpt-desktop-client.git
+     git clone https://github.com/evildevill/chatgpt-desktop-linux.git
      ```
 
 3. **Make Changes**:

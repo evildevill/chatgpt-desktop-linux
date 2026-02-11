@@ -18,7 +18,7 @@
       "category": "Utility"
     }
   },
-  "repository": "https://github.com/xanmoy/chatgpt-desktop-client.git",
+  "repository": "https://github.com/evildevill/chatgpt-desktop-linux.git",
   "keywords": [
     "Electron",
     "ChatGPT",
@@ -26,9 +26,9 @@
     "Linux",
     "desktopApplication"
   ],
-  "author": "Tanmoy Ganguly",
+  "author": "evildevill",
   "license": "ISC",
-  "description": "A simple and efficient desktop client for ChatGPT.",
+  "description": "A simple and efficient desktop client for ChatGPT for linux.",
   "devDependencies": {
     "electron": "^40.2.1",
     "electron-builder": "^26.7.0",
