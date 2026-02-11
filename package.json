@@ -1,14 +1,17 @@
 {
-  "name": "chatgpt-desktop-client",
-  "version": "1.0.0",
+  "name": "chatgpt-desktop-linux",
+  "version": "1.0.1",
   "main": "src/main.js",
   "type": "module",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder --linux snap"
+    "dist": "electron-builder --linux snap",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write \"**/*.{js,json,md}\""
   },
   "build": {
-    "appId": "com.example.chatgptdesktopclient",
+    "productName": "ChatGPT",
+    "appId": "com.evildevill.chatgptdesktoplinux",
     "linux": {
       "target": "snap",
       "icon": "assets/icon.png",
@@ -27,10 +30,12 @@
   "license": "ISC",
   "description": "A simple and efficient desktop client for ChatGPT.",
   "devDependencies": {
-    "electron": "^33.2.0",
-    "electron-builder": "^25.1.8"
+    "electron": "^40.2.1",
+    "electron-builder": "^26.7.0",
+    "eslint": "^9.15.0",
+    "prettier": "^3.4.2"
   },
   "dependencies": {
-    "electron-context-menu": "^4.0.4"
+    "electron-context-menu": "^4.1.1"
   }
 }

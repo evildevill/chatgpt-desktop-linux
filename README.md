@@ -1,10 +1,10 @@
 # Chatgpt Desktop
 
-Chatgpt Desktop is a cross-platform desktop application that allows you to use Notion directly on your computer, making it easier to chat with friends and family while working.
+Chatgpt Desktop is a cross-platform desktop application that allows you to use ChatGPT directly on your computer, making it easier to chat with AI while working.
 
-[![Get it from the Snap Store](https://snapcraft.io/en/dark/install.svg)](https://snapcraft.io/chatgpt-desktop-client)
+[![Get it from the Snap Store](https://snapcraft.io/en/dark/install.svg)](https://snapcraft.io/chatgpt-desktop-linux)
 
-![Image](https://raw.githubusercontent.com/xanmoy/chatgpt-desktop-client/refs/heads/main/screenshots/chatgpt.webp)
+![Image](https://raw.githubusercontent.com/evildevill/chatgpt-desktop-linux/refs/heads/main/screenshots/chatgpt.webp)
 
 ## 🛠 **Features**
 
@@ -18,12 +18,12 @@ ChatGPT Desktop is a lightweight, Electron-based application that brings the pow
 
 Designed for both casual chats and productivity, ChatGPT Desktop offers an easy and secure way to interact with AI on your desktop.
 
-![Image](https://github.com/xanmoy/chatgpt-desktop-client/blob/main/screenshots/image1.png)
+![Image](https://github.com/evildevill/chatgpt-desktop-linux/blob/main/screenshots/image1.png)
 
 ## 📦 **Installation**
 
 ```bash
-sudo snap install chatgpt-desktop-client --beta
+sudo snap install chatgpt-desktop-linux --beta
 ```
 
 ### Build From Source
@@ -31,8 +31,8 @@ sudo snap install chatgpt-desktop-client --beta
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/xanmoy/chatgpt-desktop-client.git
-cd chatgpt-desktop-client
+git clone https://github.com/evildevill/chatgpt-desktop-linux.git
+cd chatgpt-desktop-linux
 ```
 
 2. **Install dependencies**: Ensure that you have all the necessary dependencies installed.
@@ -62,7 +62,7 @@ cd dist
 6. **Install the Snap package**: Use the following command to install the Snap package. The `--dangerous` flag allows the installation of locally built packages.
 
 ```bash
-sudo snap install --dangerous ./chatgpt-desktop-client_1.0.0_amd64.snap 
+sudo snap install --dangerous ./chatgpt-desktop-linux_1.0.0_amd64.snap
 ```
 
 ## ↩️ **Uninstallation Steps**
@@ -70,17 +70,17 @@ sudo snap install --dangerous ./chatgpt-desktop-client_1.0.0_amd64.snap
 Remove the Snap package: To uninstall the Chatgpt Desktop application, run the following command:
 
 ```bash
-sudo snap remove chatgpt-desktop-client
+sudo snap remove chatgpt-desktop-linux
 ```
 
 ## 📖 **Usage Instructions**
 
 ### **Launching the App**:
 
-   After installation, open Chatgpt Desktop using:
+After installation, open Chatgpt Desktop using:
 
 ```bash
-   chatgpt-desktop-client
+   chatgpt-desktop-linux
 ```
 
 ## 🤝 **Contributing**

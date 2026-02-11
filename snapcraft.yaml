@@ -1,5 +1,5 @@
 name: chatgpt-desktop
-base: core20
+base: core24
 version: '1.0.0'
 summary: Unofficial ChatGPT Desktop Client
 description: |
@@ -10,7 +10,7 @@ confinement: strict
 
 apps:
   chatgpt-desktop:
-    command: chatgpt-desktop-client
+    command: chatgpt-desktop
     extensions: [gnome-3-38]
     plugs:
       - network
