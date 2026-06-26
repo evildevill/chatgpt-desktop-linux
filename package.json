@@ -1,5 +1,5 @@
 {
-  "name": "chatgpt-desktop-linuxz",
+  "name": "chatgpt-desktop-linux",
   "version": "1.0.2",
   "description": "A simple and efficient desktop client for ChatGPT.",
   "main": "src/main.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evildevill/chatgpt-desktop-linuxz.git"
+    "url": "git+https://github.com/evildevill/chatgpt-desktop-linux.git"
   },
   "keywords": [
     "electron",
@@ -26,9 +26,9 @@
   "author": "evildevill",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/evildevill/chatgpt-desktop-linuxz/issues"
+    "url": "https://github.com/evildevill/chatgpt-desktop-linux/issues"
   },
-  "homepage": "https://github.com/evildevill/chatgpt-desktop-linuxz#readme",
+  "homepage": "https://github.com/evildevill/chatgpt-desktop-linux#readme",
   "dependencies": {
     "electron-context-menu": "^4.1.1"
   },
