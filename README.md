@@ -33,52 +33,40 @@ git clone https://github.com/evildevill/chatgpt-desktop-linux.git
 cd chatgpt-desktop-linux
 ```
 
-2. **Install dependencies**: Ensure that you have all the necessary dependencies installed.
+2. **Install dependencies**:
 
 ```bash
-   npm instal
+npm install
 ```
 
-3. Start the application:
+3. **Start the application**:
 
 ```bash
 npm start
 ```
 
-4. **Build the application**: Run the following command to create a Snap package of the application.
+4. **Build the snap**:
 
 ```bash
-npm run dist
+npm run dist:snap
 ```
 
-5. **Change to the dist directory**: Navigate to the dist directory where the Snap package is located.
+5. **Install the built snap**:
 
 ```bash
-cd dist
+sudo snap install --dangerous ./dist/chatgpt-desktop-linux_*.snap
 ```
 
-6. **Install the Snap package**: Use the following command to install the Snap package. The `--dangerous` flag allows the installation of locally built packages.
-
-```bash
-sudo snap install --dangerous ./chatgpt-desktop-linux_1.0.0_amd64.snap
-```
-
-## ↩️ **Uninstallation Steps**
-
-Remove the Snap package: To uninstall the Chatgpt Desktop application, run the following command:
+## ↩️ **Uninstallation**
 
 ```bash
 sudo snap remove chatgpt-desktop-linux
 ```
 
-## 📖 **Usage Instructions**
-
-### **Launching the App**:
-
-After installation, open Chatgpt Desktop using:
+## 📖 **Usage**
 
 ```bash
-   chatgpt-desktop-linux
+chatgpt-desktop-linux
 ```
 
 ## 🤝 **Contributing**
